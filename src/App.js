@@ -3,9 +3,9 @@ import { Header, Footer } from './components';
 import { AllRoutes } from './routes/AllRoutes';
 
 
-function App() {
+function App() { 
   return (
-    <div className="App">
+    <div className="App dark:bg-dark">
       <Header />
       <AllRoutes/>
       <Footer />
