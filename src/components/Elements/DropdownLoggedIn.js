@@ -20,7 +20,7 @@ export const DropdownLoggedIn = ({setDropdown}) => {
         data.email ? setUser(data) :handleLogout();
         }
         fetchData();
-    },[]);//esLint_disable_line
+    },[]);//eslint-disable-line
 
     function handleLogout(){
         logout();
