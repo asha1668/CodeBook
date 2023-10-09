@@ -3,19 +3,23 @@ import { useNavigate } from "react-router-dom";
 import { useCart } from "../../../context";
 import { getUser } from "../../../services";
 import { createOrder } from "../../../services";
+import { toast } from "react-toastify";
+
 export const Checkout = ({setCheckout}) => {
   const { cartList, total, clearCart } = useCart();
   const [user, setUser] = useState({});
+  
+ const navigate = useNavigate();
 
-  const navigate = useNavigate();
-
- 
-
-  useEffect(() => {
+ useEffect(() => {
     async function fetchData(){
-
+      try{
         const data = await getUser();
         setUser(data);
+      }catch(error){
+        toast.error(error.message, { closeButton:true,position:"bottom-center" });
+      }
+        
 
     }
     fetchData();
@@ -29,6 +33,7 @@ export const Checkout = ({setCheckout}) => {
         clearCart();
         navigate("/order-summary", { state: {data: data, status: true} });
     } catch(error) {
+        toast.error(error.message, { closeButton:true,position:"bottom-center" });
         navigate("/order-summary", { state: {status: false} });
     }
   }

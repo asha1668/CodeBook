@@ -12,6 +12,7 @@ export const AllRoutes = () => {
         <Route path="products/:id" element={<ProductDetail />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
+        
         <Route path="cart" element={<ProtectedRoute> <CartPage /> </ProtectedRoute>} />
         <Route path="order-Summary" element={<ProtectedRoute> <OrderPage /> </ProtectedRoute>} />
         <Route path="dashboard" element={<ProtectedRoute> <DashboardPage /> </ProtectedRoute>} />
