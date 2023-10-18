@@ -257,9 +257,9 @@
       "amount_paid": 29,
       "quantity": 1,
       "user": {
-        "name": "asha",
-        "email": "ab@gmail.com",
-        "id": 1
+        "name": "basava",
+        "email": "basava@gmail.com",
+        "id": 2
       },
       "id": 1
     },
@@ -283,198 +283,24 @@
       "quantity": 1,
       "user": {
         "name": "asha",
-        "email": "anb@gmail.com",
-        "id": 2
-      },
-      "id": 2
-    },
-    {
-      "cartList": [
-        {
-          "id": 10001,
-          "name": "Basics To Advanced In React",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 29,
-          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10001.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 5,
-          "best_seller": true
-        }
-      ],
-      "amount_paid": 29,
-      "quantity": 1,
-      "user": {
-        "name": "asha",
-        "email": "anb@gmail.com",
-        "id": 2
-      },
-      "id": 3
-    },
-    {
-      "cartList": [
-        {
-          "id": 10001,
-          "name": "Basics To Advanced In React",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 29,
-          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10001.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 5,
-          "best_seller": true
-        }
-      ],
-      "amount_paid": 29,
-      "quantity": 1,
-      "user": {
-        "name": "asha",
-        "email": "as@gmail.com",
-        "id": 3
-      },
-      "id": 4
-    },
-    {
-      "cartList": [
-        {
-          "id": 10001,
-          "name": "Basics To Advanced In React",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 29,
-          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10001.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 5,
-          "best_seller": true
-        }
-      ],
-      "amount_paid": 29,
-      "quantity": 1,
-      "user": {
-        "name": "asha",
-        "email": "am@gmail.com",
-        "id": 6
-      },
-      "id": 5
-    },
-    {
-      "cartList": [
-        {
-          "id": 10001,
-          "name": "Basics To Advanced In React",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 29,
-          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10001.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 5,
-          "best_seller": true
-        }
-      ],
-      "amount_paid": 29,
-      "quantity": 1,
-      "user": {
-        "name": "asha",
         "email": "ad@gmail.com",
-        "id": 4
-      },
-      "id": 6
-    },
-    {
-      "cartList": [
-        {
-          "id": 10001,
-          "name": "Basics To Advanced In React",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 29,
-          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10001.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 5,
-          "best_seller": true
-        }
-      ],
-      "amount_paid": 29,
-      "quantity": 1,
-      "user": {
-        "name": "asha",
-        "email": "ad@gmail.com",
-        "id": 4
-      },
-      "id": 7
-    },
-    {
-      "cartList": [
-        {
-          "id": 10001,
-          "name": "Basics To Advanced In React",
-          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
-          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
-          "price": 29,
-          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
-          "image_local": "/assets/images/10001.avif",
-          "rating": 5,
-          "in_stock": true,
-          "size": 5,
-          "best_seller": true
-        }
-      ],
-      "amount_paid": 29,
-      "quantity": 1,
-      "user": {
-        "name": "asha",
-        "email": "ab@gmail.com",
         "id": 1
       },
-      "id": 8
+      "id": 2
     }
   ],
   "users": [
     {
-      "email": "ab@gmail.com",
-      "password": "$2a$10$AyZnD4hNgoyGEBor1GMhY.iEVZQRb7Ptcmnr9Siwo22z93lSrKEPK",
+      "email": "ad@gmail.com",
+      "password": "$2a$10$0DLzRCAHlzQtx7t5fmnLtOulgVGbt4.KTh3sG8LDhtmIO2N2ZEobu",
       "name": "asha",
       "id": 1
     },
     {
-      "email": "anb@gmail.com",
-      "password": "$2a$10$dvJfFJJH3f6nbgZyGMMRIuIBm8MLbelj3ApnmMDEGT/HphJFsEL3e",
-      "name": "asha",
+      "email": "basava@gmail.com",
+      "password": "$2a$10$t5UjOIvH32L6kL2dnowcZOil5W2Hqau5c5akiLKIKk7qz7rrMyzoO",
+      "name": "basava",
       "id": 2
-    },
-    {
-      "email": "as@gmail.com",
-      "password": "$2a$10$w5QAN2U7KteAB03DJB8hxegYO8sYn9KC2Bb8dXkBXCRcy1XguVILS",
-      "name": "asha",
-      "id": 3
-    },
-    {
-      "email": "ad@gmail.com",
-      "password": "$2a$10$vEiN0Hm4eSoLebS3ZNzJ8eO3vCMrPUBVsWCR5NlZTG3v2R5LATJZS",
-      "name": "asha",
-      "id": 4
-    },
-    {
-      "email": "ap@gmail.com",
-      "password": "$2a$10$M87mj4f8u99ermrwjBkkcOrARQOb1DGG4S9j.MGc05eqLutlYQnD2",
-      "name": "asha",
-      "id": 5
-    },
-    {
-      "email": "am@gmail.com",
-      "password": "$2a$10$mhQyb/tSYQzn0vMrToGuu.UfuaGnSopgyYfHtGGCGexYacFw0igpG",
-      "name": "asha",
-      "id": 6
     }
   ]
 }

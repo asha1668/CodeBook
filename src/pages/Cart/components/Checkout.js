@@ -1,39 +1,35 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useCart } from "../../../context";
-import { getUser } from "../../../services";
-import { createOrder } from "../../../services";
 import { toast } from "react-toastify";
+import { useCart } from "../../../context";
+import { createOrder, getUser } from "../../../services";
 
 export const Checkout = ({setCheckout}) => {
   const { cartList, total, clearCart } = useCart();
   const [user, setUser] = useState({});
-  
- const navigate = useNavigate();
 
- useEffect(() => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
     async function fetchData(){
-      try{
-        const data = await getUser();
-        setUser(data);
-      }catch(error){
-        toast.error(error.message, { closeButton:true,position:"bottom-center" });
-      }
-        
-
+        try{
+            const data = await getUser();
+            setUser(data);
+        } catch(error){
+            toast.error(error.message, { closeButton: true, position: "bottom-center" });
+        }        
     }
     fetchData();
   }, []);
 
   async function handleOrderSubmit(event){
     event.preventDefault();
-
     try {
-        const data = await  createOrder( cartList, user,total);
+        const data = await createOrder(cartList, total, user);
         clearCart();
         navigate("/order-summary", { state: {data: data, status: true} });
     } catch(error) {
-        toast.error(error.message, { closeButton:true,position:"bottom-center" });
+        toast.error(error.message, { closeButton: true, position: "bottom-center" });
         navigate("/order-summary", { state: {status: false} });
     }
   }

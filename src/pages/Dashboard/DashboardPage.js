@@ -1,10 +1,9 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import { useTitle } from "../../hooks/useTitle";
+import { getUserOrders } from "../../services";
 import { DashboardCard } from "./components/DashboardCard";
 import { DashboardEmpty } from "./components/DashboardEmpty";
-import { getUserOrders } from "../../services";
-import { toast } from "react-toastify";
 
 export const DashboardPage = () => {
   const [orders, setOrders] = useState([]);
@@ -13,11 +12,11 @@ export const DashboardPage = () => {
   useEffect(() => {
     async function fetchOrders(){
       try{
-        const data = await  getUserOrders();
+        const data = await getUserOrders();
         setOrders(data);
-      }catch(error){
-        toast.error(error.message, { closeButton:true,position:"bottom-center" });
-      }
+      } catch(error){
+        toast.error(error.message, { closeButton: true, position: "bottom-center" });
+      }      
     }
     fetchOrders();
   }, []);
